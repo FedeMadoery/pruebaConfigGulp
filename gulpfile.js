@@ -53,7 +53,7 @@ gulp.task('clean', function () {
 
 gulp.task('repo-watch', function() {
   repoWatch({
-    repository: 'repoPath'
+    repository: 'git@github.com:FedeMadoery/pruebaConfigGulp.git'
   })
     .on('check', function() {
       console.log('ping');
